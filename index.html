@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <title>Tour and Travel agency website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"  />
+
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
+     5.15.4/css/all.min.css">
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./script.js" defer></script>
+
+  </head>
+  <body>
+<!-- Header section starts -->
+<header>
+
+<div id="menu-bar" class="fas fa-bars">
+
+</div>
+
+  <a href="#" class="logo"><span>T</span>ravel<span>W</span>ith<span>U</span>s</a>
+
+  <nav class="navbar">
+    <a id="start" href="index.html">Home</a>
+    <a href="#book">Book</a>
+    <a href="#packages">Packages</a>
+    <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+    <a href="#review">Review</a>
+    <a href="#contact us">contact us</a>
+  </nav>
+
+
+  <div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+  </div>
+
+
+  <form class="search-bar-container" action="" >
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar" class="fas fa-search"></label>
+
+  </form>
+</header>
+<!-- Header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+
+<i class="fas fa-window-close" id="form-close"></i>
+
+  <form id="lgn" action="">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="enter your email here....">
+      <input type="password" class="box" placeholder="enter your password here....">
+      <input type="submit" value="login now" class="btn">
+      <input type="checkbox" id="remember">
+      <label for="remember">remember me</label>
+      <p>forgot password? <a href="#">click here</a></p>
+<p>don't have an account? <a href="#">register now</a></p>
+  </form>
+
+</div>
+
+<!-- home section starts -->
+<section class="home" id="home">
+  <div class="content">
+    <h3>adventure is worthwhile</h3>
+    <p>discover new places with us, adventure awaits</p>
+
+  </div>
+
+<div class="controls ">
+    <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+
+</div>
+
+<div class="video-container">
+  <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted>
+
+  </video>
+
+</div>
+
+</section>
+<!------------------------------------home section ends -->
+
+
+<!-- ---------------------------------book section starts -->
+
+<section class="book" id="book">
+
+  <h1 class="heading">
+  <span>b</span>
+  <span>o</span>
+  <span>o</span>
+  <span>k</span>
+  <span class="space"></span>
+  <span>n</span>
+  <span>o</span>
+  <span>w</span>
+</h1>
+<div class="row">
+
+<div class="image">
+  <img src="images/book-img.jpg" alt="">
+  </div>
+
+  <form action="">
+              <div class="inputBox" >
+                  <h3>where to</h3>
+                  <input type="text" placeholder="place name"class="bordercolor">
+              </div>
+              <div class="inputBox">
+                  <h3>how many</h3>
+                  <input type="number" placeholder="number of guests"class="bordercolor">
+              </div>
+              <div class="inputBox">
+                  <h3>arrivals</h3>
+                  <input type="date">
+              </div>
+              <div class="inputBox">
+                  <h3>leaving</h3>
+                  <input type="date">
+              </div>
+               
+              
+              <a href="try3.html" target="_blank">
+              <input class="btn" onclick="location.href='try3.html';" value="Login"/>
+                  </a>
+              
+          </form>
+</div>
+</section>
+
+<!------------------------------------- book section ends -->
+
+<!-------------------------------------- packages section starts -->
+
+<section class="packages" id="packages">
+
+  <h1 class="heading">
+  <span>p</span>
+  <span>a</span>
+  <span>c</span>
+  <span>k</span>
+  <span>a</span>
+  <span>g</span>
+  <span>e</span>
+  <span>s</span>
+</h1>
+
+<div class="box-container">
+
+  <div class="box">
+    <img src="images/p-1.jpg" alt="">
+    <div class="content">
+
+    <h3> <i class="fas fa-map-marker-alt">Agra</i> </h3>
+      <p>The glorious city of Agra is one of the most-visited tourist destinations in India 
+        given the fact,it is home to the popular Taj Mahal. With historical significance and 
+       grandeur of exquisite monuments like Red Fort, Fatehpur Sikri, Akbar's Tomb</p>
+
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+      
+      <a href="https://www.makemytrip.com/flights/agra-flight-tickets.html" class="btn">
+         book now</a>
+  </div>
+</div>
+
+<div class="box">l
+  <img src="images/p-2.jpg" alt="">
+  <div class="content">
+
+  <h3> <i class="fas fa-map-marker-alt">croatia</i> </h3>
+    <p>#1 Gorgeous Waterfalls. #2 Red Tourism. #3 The Balkan Wars. #4 World Cup Football. 
+      #5 Beautiful Islands. #6 Ancient Roman Ruins. #7 Dalmations. #8 The Necktie. 
+      #9 Croatian Honey. </p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+
+    </div>
+    <a href="https://www.makemytrip.com/international-flights/delhi-croatia-cheap-airtickets.html
+    ?gclid=EAIaIQobChMIhceZ-ezk-QIVTlpgCh360AiaEAAYAyAAEgI6EPD_BwE&ef_id=EAIaIQobChMIhceZ-ezk-
+     QIVTlpgCh360AiaEAAYAyAAEgI6EPD_BwE:G:s&cmp=
+     SEM|D|IF|G|DSA|IF_DSA_New|IF_DSA|600695207902" class="btn"> book now</a>
+
+</div>
+</div>
+
+<div class="box">
+  <img src="images/p-3.jpg" alt="">
+  <div class="content">
+
+  <h3> <i class="fas fa-map-marker-alt">positano</i> </h3>
+    <p>Positano is a cliffside village on southern Italy's Amalfi Coast. It's a well-known
+       holiday destination with a pebble beachfront and steep, narrow streets lined 
+       with boutiques and cafes</p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+
+    </div>
+    <a href="https://www.kayak.co.in/flight-routes/India-IN0/Positano-PS9" class="btn"> 
+      book now</a>
+</div>
+</div>
+
+<div class="box">
+  <img src="images/p-4.jpg" alt="">
+  <div class="content">
+
+  <h3> <i class="fas fa-map-marker-alt">dubai</i> </h3>
+    <p>Dubai is famous for contemporary sightseeing attractions such as the Burj Khalifa 
+      (the world's tallest building) and shopping malls that come complete with mammoth 
+      aquariums and indoor ski slopes. </p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+
+    </div>
+    <a href="https://www.makemytrip.com/international-flights/lucknow-dubai-cheap-airtickets.html?
+    gclid
+     =EAIaIQobChMIqvePlPPk-QIV3plmAh2SLgTVEAAYASAAEgKSH_D_BwE&ef_id=EAIaIQobChMIqvePlPPk-
+     QIV3plmAh2SLgTVEAAYASAAEgKSH_D_BwE:G:s&cmp=SEM|D|IF|G|DSA|
+     IF_DSA_New|IF_DSA|600695261659" class="btn"> book now</a>
+    </div>
+</div>
+
+<div class="box">
+  <img src="images/p-5.jpg" alt="">
+  <div class="content">
+
+  <h3> <i class="fas fa-map-marker-alt">vietnam</i> </h3>
+    <p>There are many things Vietnam is famous for besides it being a 
+      Southeast Asian country and a top worth-visiting place due to its ancient history,
+       diverse culture, and quintessential natural landscapes</p>
+    
+       <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+
+    </div>
+    <a href="https://www.makemytrip.com/international-flights/delhi-vietnam-cheap-airtickets.
+    html?gclid=EAIaIQobChMI6uyptPXk-QIVaIJLBR0EsgvcEAAYASAAEgKxePD_BwE&ef_id=EAIa
+    IQobChMI6uyptPXk-QIVaIJLBR0EsgvcEAAYASAAEgKxePD_BwE:G:s&cmp=SEM|D|IF|G|DSA|
+    IF_DSA_New|IF_DSA|600763439456" class="btn"> book now</a>
+</div>
+</div>
+
+<div class="box">
+  <img src="images/p-6.jpg" alt="">
+  <div class="content">
+
+  <h3> <i class="fas fa-map-marker-alt">sabah</i> </h3>
+    <p>Sabah is also known for her great natural treasures which include the world-renowned 
+      Danum Valley Conservation Area and Tabin which is Sabah's largest wildlife reserve.</p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+
+    </div>
+    <a href="https://www.airasia.com/flights/sabah-malaysia" class="btn"> book now</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- package section end -->
+
+
+
+<!-- service section starts -->
+
+<section class="services" id="services">
+
+  <h1 class="heading">
+  <span>s</span>
+  <span>e</span>
+  <span>r</span>
+  <span>v</span>
+  <span>i</span>
+  <span>c</span>
+  <span>e</span>
+  <span>s</span
+</h1>
+
+<div class="box-container">
+
+  <div class="box">
+    <i class="fas fa-hotel"></i>
+    <h3>affordable hotels</h3>
+    <p>It’s easy to blow your travel budget on full-price lodging. Learn how to get cheap hotel
+       rooms so you can spend your hard-earned cash on something more memorable.</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-utensils"></i>
+    <h3>food and drinks</h3>
+    <p>We can’t live without it, but we think food should be a source of joy in your life, too! 
+      From favorite recipes to shopping tips, you’ll get your fill of food advice herep>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-bullhorn"></i>
+    <h3>safety guide</h3>
+    <p>The main goal of safety and health programs is to prevent workplace injuries, illnesses,
+       and deaths, as well as the suffering and financial hardship these events can cause 
+       for workers,their families, and employers</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-globe-asia"></i>
+    <h3>around the world</h3>
+    <p>We’ve compiled a list of the best reasons why
+        everyone should enrich their life with around the world travel.</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-plane"></i>
+    <h3>fastest travel</h3>
+    <p>Throw in a We Love to Fly, and It Shows, You'll Love the Way We Fly and a few other
+       customer-focused taglines and you get the idea that Delta</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-hiking"></i>
+    <h3>adventures</h3>
+    <p>If you’re dreaming of the next great adventure, a trip that pushes both borders and 
+      boundaries: look no further. Whether it’s deep meditation or deep-sea diving, 
+      in pursuit of fun, learning, and 
+      the story of a lifetime. </p>
+  </div>
+
+</div>
+
+</section>
+
+<!-- service section ends -->
+
+
+<!-- Gallery section starts -->
+
+<section class="gallery" id="gallery">
+  <h1 class="heading">
+  <span>g</span>
+  <span>a</span>
+  <span>l</span>
+  <span>l</span>
+  <span>e</span>
+  <span>r</span>
+  <span>y</span>
+</h1>
+
+<div class="box-container">
+
+  <div class="box">
+    <img src="images/g-1.jpg" alt="">
+    <div class="content">
+      <h3>amazing places</h3>
+        <p>Take only memories, leave only footprints”</p>
+        <a href="" class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-2.jpg" alt="">
+    <div class="content">
+      <h3>Iceland</h3>
+        <p>Whenever you find yourself on the side of majority, it’s time to pause and reflect</p>
+        <a href="https://adventures.com/iceland/tours/packages/" class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-3.jpg" alt="">
+    <div class="content">
+      <h3>Venice</h3>
+        <p>The world is a book and those who do not travel read only one page</p>
+        <a href="https://www.tripadvisor.in/Tourism-g187870-Venice_Veneto-Vacations.html" 
+        class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-4.jpg" alt="">
+    <div class="content">
+      <h3>The hippies</h3>
+        <p>Life is either a daring adventure or nothing at alL !</p>
+        <a href="https://www.tourradar.com/v/state-california" class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-5.jpg" alt="">
+    <div class="content">
+      <h3> THe city of love</h3>
+        <p>Not all those who wander are lost</p>
+        <a href="https://worldinparis.com/what-is-paris-famous-for" class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-6.jpg" alt="">
+    <div class="content">
+      <h3>the desert</h3>
+        <p>There’s a sunrise and sunset every single day, and 
+          they’re absolutely free. Don’t miss so many of them.</p>
+        <a href="https://www.indianholiday.com/tour-packages-india
+        /desert-safaris.html" class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-7.jpg" alt="">
+    <div class="content">
+      <h3>Ancient Japan</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+        <a href="https://www.jetro.go.jp/en/" class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-8.jpg" alt="">
+    <div class="content">
+      <h3>CITY OF MATADOR </h3>
+        <p>The world is changed by your example, not your opinion.</p>
+        <a href="https://www.thomascook.in/holidays/international-tour-packages/spain-tour-packages" 
+        class="btn">see more</a>
+    </div>
+
+  </div>
+
+  <div class="box">
+    <img src="images/g-9.jpg" alt="">
+    <div class="content">
+      <h3>PANAMA</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+        <a href="https://www.tourismpanama.com/" class="btn">see more</a>
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<!-- Gallery section ends -->
+
+
+<!-- Review section starts -->
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/Pic1.jpg" alt="">
+                    <h3>john Teel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci
+                       quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim 
+                       sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit
+                        exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>john deo</h3>
+                    <p> reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>HAYat</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum  asperiores 
+                      dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, 
+                      reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>kim jon un</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum 
+                      enim sint quod ipsam distinctio molestias consectetur ducimus beatae, 
+                      reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Review section ends here.. -->
+
+
+<!-- contact  section starts -->
+
+<section class="contact us" id="contact us">
+
+  <h1 class="heading">
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>a</span>
+      <span>c</span>
+      <span>t</span>
+  </h1>
+
+  <div class="row">
+    <div class="image">
+      <img src="images/contact-img.png" alt="">
+    </div>
+     <form class="" action="">
+       <div class="inputBox">
+         <input type="text" placeholder="Name">
+         <input type="email" placeholder="Email" >
+       </div>
+<textarea name="" rows="10" cols="30" placeholder="Message"></textarea>
+<button class="btn" 
+onclick="alert('Your query has been sent!\nOur support team will contact you!\n  Thank you for contacting')">
+  Send Message</button>
+
+     </form>
+
+  </div>
+
+
+</section>
+
+<!-- Contact section ends here -->
+
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>We are dedicated to providing our clients with a unique hospitality experience. 
+              We provide Hotels, Air tickets, Vessel tickets and other travel related services.
+             </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="start">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact us">contact us </a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100056861951847&sk=about">
+              facebook</a>
+            <a href="https://www.instagram.com/accounts/login/">
+              instagram</a>
+
+            <a href="https://www.google.com/url?q=https://twitter.com/login&sa=U&ved=2ahUKEwiq5
+                -22uuT5AhXaI7cAHWCbDQYQFnoECAkQAg&usg=AOvVaw0ScSrnwVqXIEuqwzMl7RE_">
+                twitter</a>
+
+            <a href="https://www.google.com/url?q=https://www.linkedin.com/login&sa=U&ved=
+            2ahUKEwikst7IuuT5AhXw1HMBHVuFA9MQFnoECAgQAg&usg=AOvVaw1E-T0Be3zIR9020SEeYYnN">
+                linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by<span> <a href= "index.html">THE TEAM </a></span>
+       | all rights reserved! </h1>
+
+</section>
+
+<!-- custom JS file link -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </body>
+</html>
